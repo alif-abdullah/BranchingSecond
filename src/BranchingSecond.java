@@ -40,6 +40,12 @@ public class BranchingSecond {
 		for (int i=0; i<=30; i++) {
 			dd4.selectByIndex(i);
 		}
+		Select dd5= new Select (driver.findElement(By.xpath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[6]/td[2]/select")));
+		for (int i=0; i<=9; i++) {
+			dd5.selectByIndex(i);
+		}
+		
+		
 		
 	}
 
