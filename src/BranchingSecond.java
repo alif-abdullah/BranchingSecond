@@ -49,7 +49,11 @@ public class BranchingSecond {
 		{
 			System.out.println(i);
 		}
-		
+		Select dd6 = new Select (driver.findElement(By.xpath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[7]/td[2]/select[2]")));
+		for (int i=0; i<=30; i++) 
+		{
+			dd6.selectByIndex(i);
+		}
 		
 		
 	}
