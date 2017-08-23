@@ -44,10 +44,17 @@ public class BranchingSecond {
 		for (int i=0; i<=9; i++) {
 			dd5.selectByIndex(i);
 		}
+		
+		
 //		Just tryin branching
 		for (int i=0; i<=9; i++)
 		{
 			System.out.println(i);
+		}
+		
+		Select dd6 = new Select (driver.findElement(By.xpath("html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[7]/td[2]/select[1]")));
+		for (int i=0;i<=11;i++) {
+			dd6.selectByIndex(i);
 		}
 		
 		
