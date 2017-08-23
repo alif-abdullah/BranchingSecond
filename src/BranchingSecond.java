@@ -44,6 +44,11 @@ public class BranchingSecond {
 		for (int i=0; i<=9; i++) {
 			dd5.selectByIndex(i);
 		}
+//		Just tryin branching
+		for (int i=0; i<=9; i++)
+		{
+			System.out.println(i);
+		}
 		
 		
 		
